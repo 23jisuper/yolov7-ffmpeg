@@ -8,7 +8,7 @@ from Yolov7Compents import YOLOv7
 
 
 
-rtmp_server = 'rtmp://10.16.89.73:1935/video'
+rtmp_server = 'rtmp://主机ip地址:1935/video'
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
