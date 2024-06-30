@@ -9,7 +9,7 @@ import time
 
 ###################    yolov5的组件(我采用的是onnx文件)    ###############################
 
-class YOLOv7:
+class YOLOv5:
     def __init__(self, path, conf_thres=0.7, iou_thres=0.5):
         self.conf_threshold = conf_thres
         self.iou_threshold = iou_thres
